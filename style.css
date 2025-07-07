@@ -175,3 +175,26 @@
     font-size: 1.1rem;
     color: #3CB371;
   }
+
+  .franja-cita {
+    background-color: #FFE4E1;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .cita-artista {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .autora {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #3CB371;
+    font-size: 1.2rem;
+  }
