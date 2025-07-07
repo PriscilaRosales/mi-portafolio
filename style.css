@@ -55,8 +55,6 @@
 
   main {
     padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
 
@@ -64,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 50px;
+    padding: 150px 150px;
     background-color: #FFE4E1; 
     flex-wrap: wrap;
     text-align: left;
@@ -125,4 +123,55 @@
     object-fit: contain;
     border-radius: 50%;
     border: 4px solid #BA55D3;
+  }
+
+  .seccion-habilidades {
+    padding: 100px 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .titulo-habilidades {
+    font-size: 4rem;
+    color: #BA55D3;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .descripcion-habilidades {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 2rem;
+  }
+  
+  .grid-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .habilidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px;
+    padding: 1rem;
+  }
+  
+  .icono-habilidad {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .nombre-habilidad {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #3CB371;
   }
